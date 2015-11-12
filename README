@@ -1,0 +1,11 @@
+Installation:
+
+-git clone https://github.com/wili3/github_issues_uploader.git
+
+-cd github_issues_uploader/script   #this is provisional
+
+-bundle install
+
+-bundle exec ruby setup.rb
+
+-bundle exec ruby githubuploader.rb

@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.1.7)
+      aws-sdk-resources (= 2.1.7)
+    aws-sdk-core (2.1.7)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.1.7)
+      aws-sdk-core (= 2.1.7)
+    coderay (1.1.0)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
+    method_source (0.8.2)
+    multi_json (1.11.2)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    slop (3.4.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk
+  pry
+
+BUNDLED WITH
+   1.10.5
